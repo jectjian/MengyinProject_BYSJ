@@ -44,6 +44,8 @@ public class MyIndexRecycleViewAdapter extends RecyclerView.Adapter<MyIndexRecyc
                     index_recommend_zt_cardview_iv = (ImageView) itemView.findViewById(R.id.index_recommend_zt_cardview_iv);
                     index_recommend_zt_cardview_tv = (TextView) itemView.findViewById(R.id.index_recommend_zt_cardview_tv);
                     break;
+                case 3:
+                    break;
             }
         }
     }
