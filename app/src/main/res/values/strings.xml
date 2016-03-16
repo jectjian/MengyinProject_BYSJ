@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MengyinProject</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="index_tab_tuijian">推荐</string>
+    <string name="index_tab_yueku">乐库</string>
+    <string name="index_tab_bangdan">榜单</string>
+    <string name="main_tab_index">首页</string>
+    <string name="main_tab_musicman">萌主</string>
+    <string name="main_tab_circle">圈儿</string>
+    <string name="main_tab_mine">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

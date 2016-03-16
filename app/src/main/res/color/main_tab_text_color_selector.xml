@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--应用底部模块导航栏字体颜色选择-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/tab_blue" android:state_checked="true"/>
+    <item android:color="@color/tab_black" android:state_checked="false"/>
+</selector>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mengyin.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_tab_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/fengeline"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/main_tab_rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <RadioButton
+                android:id="@+id/main_tab_index_rb"
+                style="@style/MainTabStyle"
+                android:text="@string/main_tab_index"
+                android:drawableTop="@drawable/main_tab_index_drawable_selector"/>
+            <RadioButton
+                android:id="@+id/main_tab_musicman_rb"
+                style="@style/MainTabStyle"
+                android:text="@string/main_tab_musicman"
+                android:drawableTop="@drawable/main_tab_musicman_drawable_selector"/>
+            <RadioButton
+                android:id="@+id/main_tab_add_rb"
+                style="@style/MainTabStyle"
+                android:drawableTop="@drawable/main_tab_add_drawable_selector"/>
+            <RadioButton
+                android:id="@+id/main_tab_circle_rb"
+                style="@style/MainTabStyle"
+                android:text="@string/main_tab_index"
+                android:drawableTop="@drawable/main_tab_circle_drawable_selector"/>
+            <RadioButton
+                android:id="@+id/main_tab_mine_rb"
+                style="@style/MainTabStyle"
+                android:text="@string/main_tab_mine"
+                android:drawableTop="@drawable/main_tab_mine_drawable_selector"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
